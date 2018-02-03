@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+.div_body{
+    width:800px;
+    border:1px solid #B3B3B3;
+    background-color:white;
+    height:1020px;
+    margin-left:280px;
+    border-radius:7px;
+    font-family:"Microsoft YaHei","MS Sans Serif", Geneva, sans-serif;
+}
+.div_title{
+    margin:5px;
+    height:50px;
+    line-height:50px;
+    width:790px;
+    text-align:center;
+    background-color:none;
+    font-size:20px;
+    font-weight: bold;
+    border-bottom:0px solid #21D0B1;
+}
+.div_seal_select{
+    width:788px;
+    margin:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+    text-align:center;
+    border:1px solid #CBA66F;
+}
+.div_seal{
+    display:block;
+    width:800px;
+    height:700px;
+    background-color:white;
+}
+.div_seal_diy{
+    display:none;
+    width:800px;
+    height:700px;
+    background-color:white;
+}
+.div_input{
+    margin:5px;
+    background-color:none;
+    text-align:center;
+    width:788px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border:1px solid #CBA66F;    
+}
+.div_input input{
+    font-family:"Microsoft YaHei","MS Sans Serif", Geneva, sans-serif;
+}
+
+.button_submit{
+    width:70px;
+    font-size: 16px;
+}
+
+.div_result{
+    font-size:18px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:790px;
+    margin:5px;
+    background-color:#CBA66F;
+    text-align:center;
+    font-weight:bold;
+    font-size:16px;
+}
+.div_result_table{
+    border:0px solid green;
+    border-collapse: collapse;
+}
+.div_result_table tr td{
+    border-collapse: collapse;
+    border:0px solid green;
+    width:130px;    
+}
+.div_input_seal{
+    width:790px;
+    margin:5px;
+    border:1px solid #CBA66F;
+    text-align:center;  
+    padding-top:10px;
+    padding-bottom:10px;  
+}
+.div_input_seal span{
+    font-size:16px;
+}
+.div_input_seal input{
+    font-family:"Microsoft YaHei","MS Sans Serif", Geneva, sans-serif;
+    margin:5px;
+}
+.name_diy{
+    width:200px;
+}
+.font_kind{    
+    font-family:"Microsoft YaHei","MS Sans Serif", Geneva, sans-serif;
+    width:200px;
+}
+.submit_diy{
+    width:230px;
+    font-family:"Microsoft YaHei","MS Sans Serif", Geneva, sans-serif;
+    font-size:18px;
+}
+.div_result_seal{
+    width:790px;
+    margin:5px;
+    max-width:790px;
+    height:430px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    background-color:#CBA66F;
+}
+.img_diy{
+    max-width:790px;
+    max-height:430px;
+}
+.div_about{
+    width:788px;
+    margin:5px;
+    border:1px solid #CBA66F;
+}
