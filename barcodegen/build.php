@@ -15,12 +15,10 @@ $font = new BCGFontFile('./font/Arial.ttf', 18);
 $text = isset($_GET['text']) ? $_GET['text'] : 'XGL';
 
 // The arguments are R, G, B for color.
-$black=isset($_GET['black']) ? $_GET['black'] :'0.0.0';
-$white=isset($_GET['white']) ? $_GET['white'] :'255.255.255';
-$b=explode('.', $black,3);
-$w=explode('.', $white,3);
-$color_black = new BCGColor($b[0], $b[1], $b[2]);
-$color_white = new BCGColor($w[0], $w[1], $w[2]);
+$black=isset($_GET['black']) ? $_GET['black'] :'000000';
+$white=isset($_GET['white']) ? $_GET['white'] :'ffffff';
+$color_black = new BCGColor(hexdec(substr($black, 0, 2)),hexdec(substr($black, 2, 2)), hexdec(substr($black, 4, 2)));
+$color_white = new BCGColor(hexdec(substr($white, 0, 2)), hexdec(substr($white, 2, 2)), hexdec(substr($white, 4, 2)));
 $scale=isset($_GET['scale']) ? $_GET['scale'] :2;
 $thickness=isset($_GET['thickness']) ? $_GET['thickness'] :30;
 
